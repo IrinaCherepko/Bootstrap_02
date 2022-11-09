@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif ;
+}
+.container{
+    max-width: 1110px;
+    margin-bottom: 50px;
+}
+.title-h1{
+   font-size: 52px; 
+}
+.shop-item{
+    height: 357px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.shop-item-01{
+    background-image: url(../img/img_02.jpg);
+        }
+ .shop-item-02{
+     background-image: url(../img/img_03.jpg);
+      }
+.shop-item-03{
+     background-image: url(../img/img_05.jpg);
+      }
+      .sale{
+        background: #083C6E;
+        color: #fff;
+        text-transform: uppercase;
+        padding:11px 20px 10px;
+        position: absolute;
+        top:13;
+        left:13;
+        font-size: 14px;
+      }
+      .nosale{
+        visibility: hidden;
+      }
+      .text-info{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width:100%;
+        background: #083C6E;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 0.5px;
+      }
+      .text-info .col-4{
+        text-align: right;
+
+      }
+      .text-info h3{
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 0;
+
+      }
+      .text-info p{
+        font-size: 20px;
+        color: #fff;
+        font-size: 18px;
+        border:1.5px solid #fff;
+        border-radius: 5px;
+        padding: 13px 16px;
+        margin-bottom: 0;
+      }
+  .site-footer{
+    background: #083C6E;
+    color: #fff;
+  }    
+  .menu-footer{
+    list-style-type: none;
+  }
+  .menu-item{
+   margin-top: 20px;
+  }
+
